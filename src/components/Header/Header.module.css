@@ -1,4 +1,4 @@
-header {
+.header {
     display: flex;
     position: fixed;
     top: 0;
@@ -24,4 +24,18 @@ header {
 
 .menuOptions a:hover{
     font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .menuOptions {
+        font-size: .6em;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .menuOptions a:hover {
+        font-weight: 400;
+    }
 }
